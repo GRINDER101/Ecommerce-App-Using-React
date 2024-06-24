@@ -1,0 +1,131 @@
+.Checkoutcontainer {
+    width: 100%;
+    height: 80vh;
+    border-end-start-radius: 100px;
+    border-end-end-radius: 100px;
+    overflow: auto;
+    position: absolute;
+    background-color: rgb(234, 224, 127);
+}
+
+.empty-cart {
+    margin-left: 66vh;
+    margin-top: 220px;
+}
+
+.empty-cart h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(19, 16, 16);
+}
+
+.cart-item-intro {
+    height: 10%;
+    margin-left: 360px;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.cart-item-intro h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cart-items {
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.item {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    margin-left: 200px;
+    border-radius: 30px;
+    background-color: rgb(213, 215, 132);
+}
+
+.image-container {
+    width: 16vh;
+    height: 16vh;
+    /* margin-right: 40px; */
+    /* background-color: aqua; */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    color: aqua;
+    object-fit: cover;
+}
+
+.information-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 90px;
+    /* background-color: aqua; */
+    /* margin-left: 48px; */
+}
+
+.information-container h2 {
+    margin-top: 27px;
+}
+
+.information-container h3 {
+    margin: 0;
+}
+
+.item-manupulator {
+    height: 9vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 3.3%;
+}
+
+.decrease {
+    cursor: pointer;
+}
+
+.increase {
+    cursor: pointer;
+}
+
+.cart-items-total {
+    width: 120vh;
+    height: 20vh;
+    margin-left: 31.2vh;
+    margin-top: 5%;
+    border-top: 2px solid black;
+}
+
+.cart-items-total h2 {
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.clear-cart {
+    width: 20vh;
+    height: 5vh;
+    margin-left: 80vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.clear-cart button {
+    width: 100%;
+    height: 100%;
+    border-color: azure;
+    border-radius: 14px;
+    font-size: 18px;
+    cursor: pointer;
+}
