@@ -64,6 +64,7 @@
 }
 
 .shopping-cart-icon {
+    width: 4vh;
     position: relative;
     top: -1px;
     left: -12%;
