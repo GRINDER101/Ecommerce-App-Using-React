@@ -86,8 +86,9 @@ function App() {
     }
   } 
 
-  const closeSuggestions = () => {
+  const closeSuggestions = (e) => {
     setListofProducts(false);
+    e.target.value = "";
   } 
 
   const find_the_product = (product) => {
