@@ -8,7 +8,7 @@ const Navbar = ({ openCart, opencart, NumberofProduct, openSuggestions, listofPr
                 <h2>Shopper's Point</h2>
             </div>
             <div className="search-bar">
-                <input type="text" placeholder="Search..." onFocus={() => openSuggestions()} onBlur={() => closeSuggestions()} onChange={(e) => handleChange(e)} />
+                <input type="text" placeholder="Search..." onFocus={() => openSuggestions()} onBlur={(e) => closeSuggestions(e)} onChange={(e) => handleChange(e)} />
                 {listofProducts &&
                     <ul className='dropdown-menu'>{products.map((product) => (
                         <li key={product.id} ><h3 onMouseDown={() => find_the_product(product.id)}>{product.title}</h3></li>
